@@ -1,5 +1,4 @@
 <template>
-    
     <section class="second-section">
       <img src="../assets/yoona-2.jpg" alt="mylove">
         <div>
@@ -15,4 +14,3 @@
         width: 800px;
     }
 </style>
-
