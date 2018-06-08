@@ -7,21 +7,21 @@ import Step3 from '@/components/Step3'
 Vue.use(Router)
 
 export default new Router({
-    routes: [
-        {
-            path: '/',
-            name: 'FirstBody',
-            component: FirstBody
-        },
-        {
-            path: '/step2',
-            name: 'Step2',
-            component: Step2
-        },
-        {
-            path: '/step3',
-            name: 'Step3',
-            component: Step3
-        }
-    ]
+  routes: [
+    {
+      path: '/',
+      name: 'FirstBody',
+      component: FirstBody
+    },
+    {
+      path: '/step2',
+      name: 'Step2',
+      component: Step2
+    },
+    {
+      path: '/step3',
+      name: 'Step3',
+      component: Step3
+    }
+  ]
 })
