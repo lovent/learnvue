@@ -12,7 +12,7 @@
 <script>
 export default {
     name: 'Step3',
-    data () {
+    data() {
         return {
             isaid: ''
         }
