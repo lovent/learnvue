@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import FirstBody from '@/components/FirstBody'
+import MyProfile from '@/components/MyProfile'
 import Step2 from '@/components/Step2'
 import Step3 from '@/components/Step3'
 
@@ -10,8 +10,8 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'FirstBody',
-            component: FirstBody
+            name: 'My Profile',
+            component: MyProfile
         },
         {
             path: '/step2',
